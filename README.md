@@ -33,7 +33,11 @@ Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Lea
 1. Se importo el archivo con <b>Pandas</b>.
 2. Se limpio el data frame por que se observaron datos vacios y se separon en una data frame las columnas explicativas y en un series pandas la variable objetivo .
 3. Se realizo la codificacion <b>one hot encoder</b>, para las columnas categóricas con las variables explicativas y label encoder a la variable objetivo <b>"Churn"</b>.
-4. 
+4. Se reviso la proporción entre los que abandonan y los que no, siendo:
+   <img width="580" height="432" alt="Image" src="https://github.com/user-attachments/assets/25fdbdbe-be78-45da-8433-ab43562a33f8" />
+   Churn
+  No     73.4
+  Yes    26.6
 
 ## **Interpretación y conclusiones**
 Según los resultados y pruebas, se llegaron a las siguientes conclusiones
