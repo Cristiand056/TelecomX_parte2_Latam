@@ -40,6 +40,7 @@ Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Lea
   - Yes    26.6 %
 5. tambien se observo una realción entre tenure y churn:
 <img width="562" height="432" alt="Image" src="https://github.com/user-attachments/assets/44eda5e3-b412-4f99-b1ac-063f093b0bdd" />
+
 6. Se separaron el data set, entre las variables explicativas y la objetivo y se separaron entre X_train, X_test, y_train, y_test, usando train_test_split herramienta de la librería <b>Sklearn</b>.
  
 
