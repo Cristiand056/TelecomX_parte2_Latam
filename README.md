@@ -1,7 +1,10 @@
 # *TelecomX_parte2_Latam*
 ## En construción
 
+## Conrexto inicial
+¡Felicidades! 🎉 Has sido promovido después de tu excelente desempeño en el análisis exploratorio de la cancelación de clientes en Telecom X. Tu dedicación, claridad al comunicar los datos y visión estratégica marcaron la diferencia.
 
+Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Learning de la empresa!
 
 ## **Interpretación y conclusiones**
 Según los resultados y pruebas, se llegaron a las siguientes conclusiones
