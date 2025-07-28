@@ -44,7 +44,7 @@ Según los resultados y pruebas, se llegaron a las siguientes conclusiones
 4. de acuerdo al rendimiento de los parametos elegidos fue el SMOTE para el modelo randon forest.
 5. Se usó la curva ROC para ver el rendimiento del modelo.
 6. Con los datos, se decidio que era más importante priorizar los verdaderos positivos(Churn predicto = 1 y Churn real = 1), como todo fue necesario sacrificar la identificacion de falsos positivos (Churn predicto = 1 y Churn real = 0), para evitar la perdida de clientes y asegurar la retención de clientes que tengan un riesgo de abandonar.
-7. Ya con una data frame sintetico de 6 ejemplos, se probó el modelo resultante, demostrando un comportamiento óptimo respecto a lo que se buscó, con mucho defice mostrado en su matriz de confución.
+7. Ya con una data frame sintetico de 6 ejemplos, se probó el modelo resultante, demostrando un comportamiento óptimo respecto a lo que se buscó, con mucho defice mostrado en su matriz de confución
 |            | Predicho No Churn | Predicho Churn |
 |------------|-------------------|----------------|
 | Real No Churn | 2             | 1          |
