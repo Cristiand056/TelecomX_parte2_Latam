@@ -45,12 +45,13 @@ Según los resultados y pruebas, se llegaron a las siguientes conclusiones
 5. Se usó la curva ROC para ver el rendimiento del modelo.
 6. Con los datos, se decidio que era más importante priorizar los verdaderos positivos(Churn predicto = 1 y Churn real = 1), como todo fue necesario sacrificar la identificacion de falsos positivos (Churn predicto = 1 y Churn real = 0), para evitar la perdida de clientes y asegurar la retención de clientes que tengan un riesgo de abandonar.
 7. Ya con una data frame sintetico de 6 ejemplos, se probó el modelo resultante, demostrando un comportamiento óptimo respecto a lo que se buscó, con mucho defice mostrado en su matriz de confución
+
 |            | Predicho No Churn | Predicho Churn |
 |------------|-------------------|----------------|
 | Real No Churn | 2             | 1          |
 | Real Churn    | 1              | 2           |
 
-Pero de manera empirica el modelo se comporta mejor con los parametro originales dando una matriz de confución
+Pero de manera empirica el modelo se comporta mejor con los parametro originales, dando este una matriz de confución
 |            | Predicho No Churn | Predicho Churn |
 |------------|-------------------|----------------|
 | Real No Churn |2             | 1            |
