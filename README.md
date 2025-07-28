@@ -29,6 +29,12 @@ Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Lea
 - Charges.Monthly: total de todos los servicios del cliente por mes
 - Charges.Total: total gastado por el cliente
 
+## Resumen de la operación
+1. Se importo el archivo con <b>Pandas</b>.
+2. Se limpio el data frame por que se observaron datos vacios.
+3. Se realizo la codificacion <b>one hot encoder</b>, para las columnas categóricas.
+4. 
+
 ## **Interpretación y conclusiones**
 Según los resultados y pruebas, se llegaron a las siguientes conclusiones
 
