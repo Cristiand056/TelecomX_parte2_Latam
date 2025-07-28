@@ -1,5 +1,4 @@
 # *TelecomX_parte2_Latam*
-## En construción
 
 ## Contexto inicial
 ¡Felicidades! 🎉 Has sido promovido después de tu excelente desempeño en el análisis exploratorio de la cancelación de clientes en Telecom X. Tu dedicación, claridad al comunicar los datos y visión estratégica marcaron la diferencia.
