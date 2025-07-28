@@ -31,8 +31,8 @@ Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Lea
 
 ## Resumen de la operación
 1. Se importo el archivo con <b>Pandas</b>.
-2. Se limpio el data frame por que se observaron datos vacios.
-3. Se realizo la codificacion <b>one hot encoder</b>, para las columnas categóricas.
+2. Se limpio el data frame por que se observaron datos vacios y se separon en una data frame las columnas explicativas y en un series pandas la variable objetivo .
+3. Se realizo la codificacion <b>one hot encoder</b>, para las columnas categóricas y variables explicativas y label encoder a la variable objetivo <b>"Churn"</b>.
 4. 
 
 ## **Interpretación y conclusiones**
