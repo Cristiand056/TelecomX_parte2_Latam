@@ -61,6 +61,7 @@ Pero de manera empirica el modelo se comporta mejor con los parametro originales
 10. Se evidenció que el parametro R2 al ajustar los parametros con GridSearch, el R2 disminuye bastante.
 11. Se observo que el modelo de contraste se comporta un poco mejor con undersampling lo cual cambio la decicion del modelo elegido y ambos casos el R2 dio negativo, pero los modelos se comportaron de manera eficiente aparentemente.
 12. Siendo con un nuevo data frame sintetico llamado real 2 durante el ejercicio
+
 <b>modelo rf matríz de confución</b>
 |            | Predicho No Churn | Predicho Churn |
 |------------|-------------------|----------------|
