@@ -1,7 +1,7 @@
 # *TelecomX_parte2_Latam*
 ## En construción
 
-## Conrexto inicial
+## Contexto inicial
 ¡Felicidades! 🎉 Has sido promovido después de tu excelente desempeño en el análisis exploratorio de la cancelación de clientes en Telecom X. Tu dedicación, claridad al comunicar los datos y visión estratégica marcaron la diferencia.
 
 Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Learning de la empresa!
@@ -42,7 +42,10 @@ Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Lea
 <img width="562" height="432" alt="Image" src="https://github.com/user-attachments/assets/44eda5e3-b412-4f99-b1ac-063f093b0bdd" />
 
 6. Se separaron el data set, entre las variables explicativas y la objetivo y se separaron entre X_train, X_test, y_train, y_test, usando train_test_split herramienta de la librería <b>Sklearn</b>.
- 
+7. Se hizo un modelo baseline o un dummy, para tenerlo de base y se entrenaron varios modleos, como <b>knn</b>, <b>Decision Tree Classifier</b> y <b>RandomForestClassifier</b>
+8. Se balacearon los datos por la disparidad entre varios metodos como undersampling y oversampling
+9. Se probaron metricas y tipos de balaceos.
+10. Por ultimo al finalizar las pruebas se llego a un resultado.
 
 ## **Interpretación y conclusiones**
 Según los resultados y pruebas, se llegaron a las siguientes conclusiones
