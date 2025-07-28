@@ -1,6 +1,9 @@
-# TelecomX_parte2_Latam
+#*TelecomX_parte2_Latam*
 ## En construción
-Interpretación y conclusiones
+
+
+
+##**Interpretación y conclusiones**
 Según los resultados y pruebas, se llegaron a las siguientes conclusiones
 
 El modelo seleccionado que bajo mi criterio se ajustó mejor a los requerimientos fue el modelo random forest, a pesar de que la variable objetivo está desbalanceada 74.6% en "Churn=0" y 26.4% "Churn=1".
