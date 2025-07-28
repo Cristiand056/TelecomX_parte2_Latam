@@ -35,9 +35,9 @@ Ahora, ¡has sido invitado oficialmente a formar parte del equipo de Machine Lea
 3. Se realizo la codificacion <b>one hot encoder</b>, para las columnas categóricas con las variables explicativas y label encoder a la variable objetivo <b>"Churn"</b>.
 4. Se reviso la proporción entre los que abandonan y los que no, siendo:
    <img width="580" height="432" alt="Image" src="https://github.com/user-attachments/assets/25fdbdbe-be78-45da-8433-ab43562a33f8" />
-   Churn
-  No     73.4
-  Yes    26.6
+
+  - No     73.4
+  - Yes    26.6
 
 ## **Interpretación y conclusiones**
 Según los resultados y pruebas, se llegaron a las siguientes conclusiones
