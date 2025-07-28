@@ -44,8 +44,23 @@ Según los resultados y pruebas, se llegaron a las siguientes conclusiones
 4. de acuerdo al rendimiento de los parametos elegidos fue el SMOTE para el modelo randon forest.
 5. Se usó la curva ROC para ver el rendimiento del modelo.
 6. Con los datos, se decidio que era más importante priorizar los verdaderos positivos(Churn predicto = 1 y Churn real = 1), como todo fue necesario sacrificar la identificacion de falsos positivos (Churn predicto = 1 y Churn real = 0), para evitar la perdida de clientes y asegurar la retención de clientes que tengan un riesgo de abandonar.
-7. Ya con una data frame sintetico de 6 ejemplos, se probó el modelo resultante, demostrando un comportamiento óptimo respecto a lo que se buscó, con mucho defice mostrado en su matriz de confución. [2 1] [1 2]
-Pero de manera empirica el modelo se comporta mejor con los parametro originales dando una matriz de confución [2 1] [0 3]
-8. el modelo de mejor rendimiento se guardo, para su posterior uso.
-9. Se evidenció que el parametro R2 al ajustar los parametros con GridSearch, el R2 disminuye bastante.
-10. Se observo que el modelo de contraste se comporta un poco mejor con undersampling lo cual cambio la decicion del modelo elegido y ambos casos el R2 dio negativo, pero los modelos se comportaron de manera eficiente aparentemente 
+7. Ya con una data frame sintetico de 6 ejemplos, se probó el modelo resultante, demostrando un comportamiento óptimo respecto a lo que se buscó, con mucho defice mostrado en su matriz de confución.
+```plaintext
+[2 1]
+[1 2]
+Pero de manera empirica el modelo se comporta mejor con los parametro originales dando una matriz de confución
+```plaintext
+[2 1]
+[0 3]
+9. el modelo de mejor rendimiento se guardo, para su posterior uso.
+10. Se evidenció que el parametro R2 al ajustar los parametros con GridSearch, el R2 disminuye bastante.
+11. Se observo que el modelo de contraste se comporta un poco mejor con undersampling lo cual cambio la decicion del modelo elegido y ambos casos el R2 dio negativo, pero los modelos se comportaron de manera eficiente aparentemente.
+12. Siendo con un nuevo data frame sintetico llamado real 2 durante el ejercicio
+<b>modelo rf matríz de confución</b>
+```plaintext
+[17  4]
+[ 4  5]
+<b>modelo arbol matríz de confución</b>
+```plaintext
+[15  6]
+[ 3  6]
